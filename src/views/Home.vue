@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="global_container">
     <H1>this is header</H1>
     <div>
       Sometimes people just say the meanest things lol awdawdawd Lorem ipsum
