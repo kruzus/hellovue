@@ -61,19 +61,15 @@ const data: Data[] = [
 export default {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
+ 
     return {
       counter: 0,
       items: data,
     };
   },
   methods: {
-    handleClick(): void {
-      this.counter += 1;
-      if (this.counter >= 10) {
-        alert("Please stop");
-        document.getElementById("btn").disabled = true;
-        document.getElementById("btn")?.innerHTML = "I TOLD U TO STOP!";
-      }
+    handleClick(): number {
+      return (this.counter += 1);
     },
   },
 };
