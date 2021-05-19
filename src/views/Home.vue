@@ -61,15 +61,14 @@ const data: Data[] = [
 export default {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
- 
     return {
       counter: 0,
       items: data,
     };
   },
   methods: {
-    handleClick(): number {
-      return (this.counter += 1);
+    handleClick(): void {
+      this.counter += 1;
     },
   },
 };
