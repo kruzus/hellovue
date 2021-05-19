@@ -26,7 +26,8 @@ export default {
 
 //Global Container; use custum in scoped only!
 .global_container {
-  margin: 2rem;
+  margin: 0 auto;
+  width: 70%;
   padding: 0.5rem;
   color: white;
 }
